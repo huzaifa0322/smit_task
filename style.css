@@ -1,0 +1,89 @@
+  
+
+body {
+    background-image: url(https://i.pinimg.com/474x/6a/32/1e/6a321e50f1952991f664e65781813d63.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav{
+    height: 70px;
+    width: 100%;;
+}
+.Search{
+    
+  display: flex;
+  justify-content: center;
+}
+.searchBar{
+    height: 25px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+  
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px
+}
+.searchButton{
+    height: 30px;
+    width: 50px;
+    cursor: pointer;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+  
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    height: 270px;
+    width: 200px;
+    margin: 5px;
+    margin-top: 5px;
+    padding: 5px;
+    justify-content: space-between;
+    display: flex;
+     flex-wrap: wrap;
+     border: solid 1px;
+     border-radius: 5px;
+   
+  }
+
+.img{
+    height: 150px;
+    width: 100%;
+}
+.chips{
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.chip {
+    height: 25px;
+    width: 140px;
+    margin-top: 5px;
+    margin-right: 8px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    background-color: lightgreen;
+    border: none;
+    color: white;
+  }
+
+  .chip.active {
+    background-color: white;
+    color: black;
+  }
+
+
+
+
+
+
+
+
